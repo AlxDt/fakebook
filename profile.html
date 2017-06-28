@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Fakebook</title>
+		<script src = "jquery-3.2.1.js"></script>
+		<script src = "script_profile.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
+	</head>
+	 
+	<body>
+		<div class = "nav">
+			<nav>
+				<li><a href = "index.html" id = "logo">fakebook</a></li>
+				<li><a href = "index.html">news feed</a></li>
+				<li><a href = "photos.html">photos</a></li>
+				<li>
+					<input type = "text" id = "search" />
+				</li>
+				<li>
+					<a href = "search.html" id = "go">search</a>
+				</li>
+			</nav>
+		</div>
+	
+		<div class = "info">
+			<h1 id = "title">Information</h1>
+			<p id = "id"></p>
+			<p id = "name"></p>
+			<p id = "username"></p>
+			<p id = "email"></p>
+			
+			<h2 id = "subtitle">Address</h2>
+			<address id = "address">
+			</address>
+
+			<p id = "phone"></p>
+			<p id = "website"></p>
+
+			<h2 id = "subtitle">Company</h2>
+			<address id = "company">
+			</address>
+		</div>
+		
+		<button type = "button" id = "location">Find this user in a map!</button>
+	
+		<div class = "posts">
+			<h1 id = "title">Recent posts</h1>
+		</div>
+		
+		<button type = "button" id = "see-more-posts">See more posts!</button>
+		
+		<div class = "todos">
+			<h1 id = "title">Todo list</h1>
+		</div>
+		
+		<button type = "button" id = "see-more-todos">See more todos!</button>
+		
+		<div class = "albums">
+			<h1 id = "title">Recent albums</h1>
+		</div>
+		
+		<button type = "button" id = "see-more-albums">See more recent albums!</button>
+		
+		<button type = "button" class = "inline" id = "go-back">Go back</button>
+	</body>
+</html>

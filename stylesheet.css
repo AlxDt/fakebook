@@ -1,0 +1,237 @@
+html {
+	background-color: #e6f5ff;
+}
+
+body {
+	margin: auto;
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #3b5998;
+	z-index: 2147483647;
+}
+
+.nav nav li {
+	float: left;
+	display: block;
+	padding: 14px 16px;
+}
+
+li a {
+	color: #e6f2ff;
+	text-align: center;
+	text-decoration: none;
+	font: bold 15px Helvetica;
+}
+
+li input {
+	color: gray;
+	font: 12px Consolas;
+	border: 1px solid #c8d3ea;
+    border-radius: 4px;
+}
+
+li a#go {
+	margin: 10px 10px 10px -25px;
+	color: #e6f2ff;
+	text-align: center;
+	text-decoration: none;
+	font: bold 15px Helvetica;
+	border-left: 0px;
+}
+
+#logo {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	font: bold 20px Helvetica;
+}
+
+.posts {
+	margin: 70px 10px 10px 10px;
+	width: 95%;
+}
+
+.comments {
+	margin: 70px 10px 10px 10px;
+	width: 80%;
+}
+
+.info {
+	margin: 70px 10px 10px 10px;
+	width: 80%;
+}
+
+.map {
+	margin: 70px 10px 10px 10px;
+	width: 80%;
+}
+
+.todos {
+	margin: 70px 10px 10px 10px;
+	width: 80%;
+}
+
+.photos {
+	margin: 70px 10px 10px 10px;
+	width: 80%;
+}
+
+.photo {
+	margin: 70px 10px 10px 10px;
+	width: 80%;
+}
+
+.albums {
+	margin: 70px 10px 10px 10px;
+	width: 80%;
+}
+
+.users {
+	margin: 70px 10px 10px 10px;
+	width: 80%;
+}
+
+div[class ^= comments-] {
+	width: 90%;
+}
+
+span {
+	font: 12px Segoe UI;
+}
+
+div[id ^= post-] {
+	background-color: #e6f5ff;
+	transition: background 0.5s linear;
+}
+
+div[id ^= post-]:hover {
+	background-color: lightblue;
+}
+
+h1 {
+	font: bold 20px Gill Sans MT;
+	color: #004d80;
+}
+
+#title {
+	font: bold 25px Gill Sans MT;
+	color: #004d80;
+}
+
+#subtitle {
+	font: bold 15px Gill Sans MT;
+	color: #004d80;
+}
+
+#map {
+	width: 400px;
+	height: 400px;
+}
+
+address {
+	position: relative;
+	left: 50px;
+	font: 15px Consolas;
+	color: #6b6b47;
+}
+
+div[class ^= comments] {
+	position: relative;
+	left: 50px;
+}
+
+div[id ^= post-] > p {
+    font: 15px Segoe UI;
+}
+
+div[id ^= comment-] > p {
+	font: 10px Consolas;
+	color: #6b6b47;
+}
+
+div[id ^= todo-] > p {
+	position: relative;
+	left: 20px;
+	font: 15px Consolas;
+	color: #6b6b47;
+}
+
+#true {
+	position: relative;
+	left: 20px;
+	font: bold 15px Consolas;
+	color: green;
+}
+
+#false {
+	position: relative;
+	left: 20px;
+	font: bold 15px Consolas;
+	color: red;
+}
+
+p {
+	font: 15px Segoe UI;
+}
+
+#grid {
+	margin: 10px 10px 10px 10px;
+	width: 80%;
+}
+
+th, td {
+	padding: 10px;
+}
+
+a {
+	font: 12px Segoe UI;
+	transition: 0.25s linear;
+}
+
+a:hover {
+	text-shadow: 0 0 3px #b1dae7;
+}
+
+button {
+	background-color: #3b5998;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font: 16px Segoe UI;
+	transition: background 0.25s linear;
+	margin: 10px 10px 10px 10px;
+}
+
+button:hover {
+	background-color: #1ab6ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font: 16px Segoe UI;
+}
+
+button:active {
+	background-color: #006999;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font: 16px Segoe UI;
+}
+
+.inline {
+	display: inline;
+}
